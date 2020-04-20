@@ -33,7 +33,9 @@ body {
     transform: rotate(-5deg);;
 }
 
-/*Navigation bar*/
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
 .sticky {
   position: fixed;
   top: o;
@@ -68,7 +70,9 @@ a {
   margin-left: auto;
 }
 
-/*Cover*/
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
 .container {
   display: flex;
   align-items: center;
@@ -84,7 +88,7 @@ a {
 .grid-wrapper {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
 }
 
 .box > img {
@@ -94,11 +98,37 @@ a {
 .box {
   background-color: #444;
   padding: 130px;
-  margin: 20px;
+  margin: 10px;
 }
 
 footer {
   text-align: center;
+}
+
+/***********************************************************************
+ *  Social Icons
+ **********************************************************************/
+ .devicons {
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.devbox {
+  background-color: #444;
+  padding: 130px;
+  margin: 10px;
+}
+
+.devbox > img {
+  width: 100%
+}
+
+.devbox:hover {
+  background-color: pink
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
